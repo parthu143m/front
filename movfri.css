@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  border: 2px solid;
+  top: 190px;
+  background: rgb(7, 5, 5);
+  max-width: 70%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 75%;
+    border: 2px solid black;  
+  }
+}
+.bg{
+  background-color: rgb(31, 27, 27);
+}
+.butt{
+  position: relative;
+  left: 46%;
+  background-color: green;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: white;
+}
